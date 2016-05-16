@@ -45,3 +45,19 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'bootstrap-sass'
+gem 'pg'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller', :platforms=>[:mri_20]
+  gem 'quiet_assets'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :production do
+  gem 'rails_12factor'
+end
+
